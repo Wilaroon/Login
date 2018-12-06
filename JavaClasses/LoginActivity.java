@@ -92,14 +92,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             public void onClick(View view) {
 
                 String Micorreo ;
-                String Micontraseña ;
+                String MicontraseÃ±a ;
 
 
 
                 Micorreo = mEmailView.getText().toString();
-                Micontraseña = mPasswordView.getText().toString();
+                MicontraseÃ±a = mPasswordView.getText().toString();
                 Emailsalida.setText(Micorreo);
-                contrasalida.setText(Micontraseña);
+                contrasalida.setText(MicontraseÃ±a);
                 attemptLogin();
 
             }
